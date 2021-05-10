@@ -1,0 +1,214 @@
+
+body {
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+
+  padding: 20px;
+  background: #204051;
+  color: #204051;
+}
+
+.quote{
+  font-family: 'Sacramento';
+  font-size: 2rem;
+}
+
+
+/* spare font
+ */
+
+
+
+h1, h2, h3, h4, h5, h6{
+font-family: 'Work Sans', sans-serif;
+font-weight: bold;
+color: #204051;
+padding-top: 1rem;
+}
+
+p{
+    text-align: justify;
+}
+
+a:link{
+  font-weight: bold;
+  color: #150e56;
+}
+
+.blogList{
+  font-weight: bold;
+  color: #150e56;
+}
+
+a:hover{
+  color: #51c4d3;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #84a9ac;
+}
+
+.headerBlog{
+  font-family: 'Pacifico';
+  font-size: 3rem;
+  color: #204051;
+}
+
+
+/* Navbar */
+.navbar {
+  background-color: #204051;
+  padding: 2rem 0;
+}
+
+.navbar-brand {
+  font: "Montserrat";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 300;
+
+
+}
+
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Image */
+.homeImages{
+  width: 100%;
+  padding: 20px;
+}
+
+.image {
+width: 100%;
+padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: #84a9ac;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Button */
+.btn{
+  background-color: #142850;
+  color: #84a9ac;
+  border: #142850;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* PAGES */
+/* Section */
+#section{
+  padding: 2.5% 5%;
+  background: #84a9ac;
+  color: #204051;
+
+}
+
+.imageSection{
+text-align: center;
+width: 80%;
+padding: 20px;
+}
+
+.fig{
+  text-align: center;
+}
+
+.imageSectionBio{
+  width: 45%;
+  padding: 20px 20px 0 20px;
+}
+
+.circular{
+  border-radius: 50%;
+  width: 45%;
+
+}
+
+
+.figCapSection{
+  text-align: center;
+  font-family: 'Work Sans';
+  font-weight: 700;
+}
+
+.carousel-inner{
+  text-align: center;
+}
+
+.carouselImage{
+  text-align: center;
+  width: 43%;
+  padding: 20px;
+}
+
+.topPage{
+  text-align: center;
+}
+
+.icon{
+  color: #204051;
+  text-align: center;
+  margin: 10px 20px;
+
+}
+
+
+
+.icon:hover{
+    color: #51c4d3;
+}
+
+/* Footer */
+.footer {
+  padding: 10px;
+  text-align: center;
+  background: #84a9ac;
+  margin-top: 20px;
+}
+
+.fratbotImages{
+  width: 100px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
