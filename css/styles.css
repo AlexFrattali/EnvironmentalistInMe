@@ -5,8 +5,8 @@ body {
   font-size: 1rem;
 
   padding: 20px;
-  background: #204051;
-  color: #204051;
+  background: #1b2021;
+  color: #faf3f3;
 }
 
 .quote{
@@ -14,16 +14,10 @@ body {
   font-size: 2rem;
 }
 
-
-/* spare font
- */
-
-
-
 h1, h2, h3, h4, h5, h6{
 font-family: 'Work Sans', sans-serif;
 font-weight: bold;
-color: #204051;
+color: #faf3f3;
 padding-top: 1rem;
 }
 
@@ -33,12 +27,12 @@ p{
 
 a:link{
   font-weight: bold;
-  color: #150e56;
+  color: #a6d6d6;
 }
 
 .blogList{
   font-weight: bold;
-  color: #150e56;
+  color: #a6d6d6;
 }
 
 a:hover{
@@ -49,19 +43,19 @@ a:hover{
 .header {
   padding: 30px;
   text-align: center;
-  background: #84a9ac;
+  background: #1b2021;
 }
 
 .headerBlog{
   font-family: 'Pacifico';
   font-size: 3rem;
-  color: #204051;
+  color: #faf3f3;
 }
 
 
 /* Navbar */
 .navbar {
-  background-color: #204051;
+  background-color: #1b2021;
   padding: 2rem 0;
 }
 
@@ -110,16 +104,16 @@ padding: 20px;
 
 /* Add a card effect for articles */
 .card {
-  background-color: #84a9ac;
+  background-color: #393e46;
   padding: 20px;
   margin-top: 20px;
 }
 
 /* Button */
 .btn{
-  background-color: #142850;
-  color: #84a9ac;
-  border: #142850;
+  background-color: #faf3f3;
+  color: #1b2021;
+  border: #faf3f3;
 }
 
 /* Clear floats after the columns */
@@ -133,8 +127,8 @@ padding: 20px;
 /* Section */
 #section{
   padding: 2.5% 5%;
-  background: #84a9ac;
-  color: #204051;
+  background: #1b2021;
+  color: #faf3f3;
 
 }
 
@@ -181,7 +175,7 @@ padding: 20px;
 }
 
 .icon{
-  color: #204051;
+  color: #faf3f3;
   text-align: center;
   margin: 10px 20px;
 
@@ -193,11 +187,44 @@ padding: 20px;
     color: #51c4d3;
 }
 
+/* Contact Page*/
+label {
+  color: #faf3f3;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-top: 20px;
+  text-align: left;
+}
+
+.fcf-input-group {
+  padding-top: 10px;
+}
+
+.fcf-btn, input[type=submit] {
+  background-color: #1b2021;
+  color: #faf3f3;
+  font-size: 1.25rem;
+  padding: 12px 30px;
+  border: solid #faf3f3 4px;
+  border-radius: 45px;
+}
+
+input[type=text], select, textarea {
+  width: 65%;
+  padding: 12px;
+  border: 1px solid #faf3f3;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
 /* Footer */
 .footer {
   padding: 10px;
   text-align: center;
-  background: #84a9ac;
+  background: #1b2021;
   margin-top: 20px;
 }
 
