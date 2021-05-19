@@ -32,7 +32,7 @@ a:link{
   color: #51c4d3;
 }
 
-.blogList:link{
+.blogList a:link{
   font-weight: bold;
   color: #a6d6d6;
 }
