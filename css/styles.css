@@ -1,9 +1,7 @@
 
 body {
-
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
-
   padding: 20px;
   background: #1b2021;
   color: #faf3f3;
@@ -31,7 +29,7 @@ a:link{
 }
 
 a:hover{
-  color: #393e46;
+  color: #51c4d3;
 }
 
 .blogList{
