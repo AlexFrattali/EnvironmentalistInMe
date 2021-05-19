@@ -28,11 +28,11 @@ a:link{
   color: #393e46;
 }
 
-a:hover{
+.blogLink, a:hover{
   color: #51c4d3;
 }
 
-.blogList{
+.blogList:link{
   font-weight: bold;
   color: #a6d6d6;
 }
