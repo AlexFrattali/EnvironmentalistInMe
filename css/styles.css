@@ -105,13 +105,12 @@ padding: 20px;
 /* Button */
 .btn{
   background-color: #faf3f3;
-  color:   #393e46;
+  color: #393e46;
   border: #faf3f3;
 }
 
 .btn:hover{
-    color: ;
-    background-color: #51c4d3;
+  background-color: #51c4d3;
   color: #faf3f3;
   border:#51c4d3;
 }
@@ -199,7 +198,7 @@ label {
 
 .fcf-btn, input[type=submit] {
   background-color: #1b2021;
-  color:  #393e46;
+  color:  #faf3f3;
   font-size: 1.25rem;
   padding: 12px 30px;
   border: solid #faf3f3 4px;
