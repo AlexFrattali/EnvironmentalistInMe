@@ -31,7 +31,7 @@ a:link{
 }
 
 a:hover{
-  color: #51c4d3;
+  color: #393e46;
 }
 
 .blogList{
@@ -113,7 +113,7 @@ padding: 20px;
 /* Button */
 .btn{
   background-color: #faf3f3;
-  color:  #393e46;
+  color:   #393e46;
   border: #faf3f3;
 }
 
@@ -151,7 +151,6 @@ padding: 20px;
 .circular{
   border-radius: 50%;
   width: 45%;
-
 }
 
 
@@ -183,7 +182,7 @@ padding: 20px;
 }
 
 .icon:hover{
-    color: #51c4d3;
+    color:  #393e46;
 }
 
 /* Contact Page*/
@@ -201,7 +200,7 @@ label {
 
 .fcf-btn, input[type=submit] {
   background-color: #1b2021;
-  color: #faf3f3;
+  color:  #393e46;
   font-size: 1.25rem;
   padding: 12px 30px;
   border: solid #faf3f3 4px;
