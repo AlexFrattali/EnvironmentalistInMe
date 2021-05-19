@@ -28,7 +28,7 @@ a:link{
   color: #1c8499;
 }
 
-.blogLink, a:hover{
+a:hover{
   color: #51c4d3;
 }
 
@@ -110,7 +110,10 @@ padding: 20px;
 }
 
 .btn:hover{
-    color: #51c4d3;
+    color: ;
+    background-color: #51c4d3;
+  color: #faf3f3;
+  border:#51c4d3;
 }
 
 /* Clear floats after the columns */
