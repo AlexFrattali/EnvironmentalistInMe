@@ -25,18 +25,12 @@ p{
 
 a:link{
   font-weight: bold;
-  color: #393e46;
+  color: #1c8499;
 }
 
 .blogLink, a:hover{
   color: #51c4d3;
 }
-
-.blogList:link{
-  font-weight: bold;
-  color: #a6d6d6;
-}
-
 
 /* Header/Blog Title */
 .header {
