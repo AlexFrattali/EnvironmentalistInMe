@@ -32,7 +32,7 @@ a:link{
   color: #51c4d3;
 }
 
-.blogList a:link{
+.blogList:link{
   font-weight: bold;
   color: #a6d6d6;
 }
@@ -113,6 +113,10 @@ padding: 20px;
   background-color: #faf3f3;
   color:   #393e46;
   border: #faf3f3;
+}
+
+.btn:hover{
+    color: #51c4d3;
 }
 
 /* Clear floats after the columns */
