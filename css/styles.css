@@ -27,7 +27,11 @@ p{
 
 a:link{
   font-weight: bold;
-  color: #a6d6d6;
+  color: #393e46;
+}
+
+a:hover{
+  color: #51c4d3;
 }
 
 .blogList{
@@ -35,9 +39,6 @@ a:link{
   color: #a6d6d6;
 }
 
-a:hover{
-  color: #51c4d3;
-}
 
 /* Header/Blog Title */
 .header {
@@ -180,8 +181,6 @@ padding: 20px;
   margin: 10px 20px;
 
 }
-
-
 
 .icon:hover{
     color: #51c4d3;
